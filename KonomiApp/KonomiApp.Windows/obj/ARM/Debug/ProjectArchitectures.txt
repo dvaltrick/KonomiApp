@@ -1,0 +1,2 @@
+C:\Users\Diego\Documents\Code\Xamarin\KonomiApp\KonomiApp\KonomiApp.Windows\KonomiApp.Windows.csproj;arm
+C:\Users\Diego\Documents\Code\Xamarin\KonomiApp\KonomiApp\KonomiApp\KonomiApp.csproj;neutral

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KonomiApp.Views.xNovaLista"
+             BackgroundColor="White">
+  <StackLayout BackgroundColor="White"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               Padding="10,10,10,10">
+    <Entry x:Name="nomeLista"
+           TextColor="#7C4DFF"
+           PlaceholderColor="#7C4DFF"
+           VerticalOptions="CenterAndExpand"
+           HorizontalOptions="Fill"
+           Placeholder="Informe o nome da nova lista"
+           Grid.Row="0"
+           Grid.Column="0"/>
+    <Grid HorizontalOptions="Center">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"></ColumnDefinition>
+        <ColumnDefinition Width="*"></ColumnDefinition>
+      </Grid.ColumnDefinitions>
+      <Button x:Name="btCancelar"
+              Text="Cancelar"
+              BackgroundColor="#7C4DFF"
+              HorizontalOptions="FillAndExpand"
+              VerticalOptions="Center"
+              Image="Cancel.png"
+              Clicked="btCancelOnClick"
+              Grid.Row="0"
+              Grid.Column="0"/>
+      <Button x:Name="btConfirma"
+              Text="Confirmar"
+              BackgroundColor="#7C4DFF"
+              HorizontalOptions="FillAndExpand"
+              VerticalOptions="Center"
+              Clicked="btConfirmaOnClick"
+              Image="Checked.png"
+              Grid.Row="0"
+              Grid.Column="1"/>
+    </Grid>
+  </StackLayout>
+</ContentPage>
